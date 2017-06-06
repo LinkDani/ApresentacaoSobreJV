@@ -3,16 +3,22 @@ class MayTheForceBeWithYou {
 
     boolean tricky = true;
 
-    if(5 < 2)
+    if(5 > 2)
     {
 
-    System.out.println("May The Force Be With You");
+      int[] multiplicação = new int[10];
+     for (int i = 0; i < 10; i++) {
+       multiplicação[i] = i * 5;
+     }
+     for (int i = 0; i < 10; i++) {
+     System.out.println("Tea is worst than coffee" );
+     }
 
     }
-    else
+    else{
 
-    System.out.println("Coffee is better than tea");
+    System.out.println("Coffee is better than Tea");
 
-
-  }
+       }
+   }
 }
